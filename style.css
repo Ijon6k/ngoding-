@@ -1,0 +1,64 @@
+/* *,
+html{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    
+    font-family: 'Times New Roman', Times, serif;
+    
+} 
+
+.header {
+    background-color: blue;
+    height: 90px;
+}
+
+.header-logo{
+    float: left;
+    padding: 20px 40px;
+    font-size: 36px;
+ 
+}
+
+.header-list li{
+    float: left;   
+   padding: 33px 20px;
+
+}
+li{
+    list-style: none;
+}
+
+
+
+.main {
+    background-color: bisque;
+    height: 600px;
+}
+
+
+.footer {
+
+   background-color: aquamarine;
+    height: 120px;
+    padding: 20px 40px;
+
+}
+
+.footer-logo{
+    font-size: 36px;
+    float: left;
+    padding: 33px 20px;
+}
+
+.footer-list li{
+    font-size: 20px;
+    float: right;
+    padding: 40px 20px;
+}
+
+/* .span {
+    color: red;
+}  */
