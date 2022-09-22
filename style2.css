@@ -287,3 +287,35 @@ a {
     text-align: justify;
     margin: 20px 0;
 }
+
+
+.footer{
+    background-color: #94D1BE;
+    height: 220px;
+    width: auto;
+    
+}
+
+.footer li{
+    
+    list-style: none;
+    margin-top: 20%;
+}
+
+.footer {
+    text-decoration: none;
+    color: #3B413C;
+}
+
+.navbar-footer{
+    float: right;
+    margin: 10px 5%; 
+}
+
+.foto-footer{
+    float: left;
+    height: 150px;
+    width: auto;
+    padding-top: 2%;
+    display: flex;
+}
