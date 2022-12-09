@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* color palette #3B413C #94D1BE */
+
+.header{
+    width: auto;
+    height: 700px;
+    background-image:linear-gradient(to bottom,rgba(36, 39, 36, 0.5)70%, rgb(33, 36, 33)100%),url('/image/pandawa.jpg');
+    background-size: cover;
+}
+
+.navbar-container{
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.navbar-container a{
+    color: white;
+    opacity: 0.7;
+    margin:0px 20px;
+    
+}
+
+.active{
+    color: white;
+    border-bottom: 2pt solid red ;
+    font-weight: bolder;
+    opacity: 1;
+    margin: 0 20px;
+}
+
+.navbar a:hover{
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+    border-bottom: 2pt solid white ;
+}
+
+.home {
+    float: right;
+    color: white;
+    opacity: 0.7; 
+    padding: 30px 0 0 0;
+    margin-right: 40px;
+}
+
+.heading{
+    
+    height:80px ;
+    width: 600px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+.heading h1{
+    font-size: 52px;
+    font-weight: 200;
+    margin-top:150px;
+    padding: 0;
+    margin-bottom: 10px;   
+}
+
+.heading span{
+    font-weight:600;
+}
+
+/* heading end */
+
+.main{
+    width: 100%;
+    height: fit-content;
+    background-color: #282b28;
+}
+
+/* content visi misi sekolah */
+.content1{
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+}
+
+.title-content1{
+    padding-top: 200px;
+    margin: auto;
+    display: flex;
+    border-bottom:5pt solid rgb(199, 240, 221);
+    width: fit-content;
+    color: white;
+    margin-bottom: 100px;
+    font-size: x-large;
+}
+
+
+
+.sub-title{
+    border-bottom:4pt solid rgb(199, 240, 221) ;
+    width: 30%;
+    color: white;
+}
+
+.visi-misi{
+
+    width: 800px;
+    height: auto;
+    margin-left: 50px;
+    border-left:7pt solid rgb(199, 240, 221);
+    padding-left: 20px;
+
+}
+
+.isi{
+    padding-bottom:40px ;
+}
+
+.isi li{
+    padding: 5px 0;
+}
+
+.shape1{
+    width: 300px;
+    height: 400px;
+    background-image: url(image/bendera.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+   
+}
+/* content visi misi sekolah end */
+
+/* content pendirian sekolah */
+
+.content2{
+    height: 300px;
+    padding: 0;
+    margin-top:200px;
+    color: white;
+   display: flex;
+   padding: 0 100px;
+   justify-content: center;
+   align-items: center;
+   margin: 200px auto;
+}
+
+.isi2{
+    border-right: 7pt solid rgb(199, 240, 221);
+    padding: 125px 25px 125px 0;
+}
+
+.isi2 h1 ~ li {
+    padding: 5px 0;
+}
+
+.isi2 h1{
+    border-bottom:4pt solid rgb(199, 240, 221) ;
+}
+
+.shape2{
+    
+    margin-left: 5%;
+    width: 600px;
+    height: 400px;
+    background-image: url('image/sekul2.jpg');
+    /* background-image:linear-gradient(to right, rgb(40, 43, 40) 0%, rgba(59, 65, 60, 0)70% ),url('image/sekul2.jpg') ; */
+    background-position: center;
+    background-size: cover;
+    
+}
+/* content pendirian sekolah end */
+
+/* contact and location */
+.content3{
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+}
+
+.peta{
+    padding: 50px;
+}
+.isi3{
+    padding: 40px 0;
+    padding-left: 50px;
+    border-left: 7pt solid rgb(199, 240, 221);
+}
+
+.isi3 h1{
+    border-bottom:4pt solid rgb(199, 240, 221) ;
+}
+.isi3 li{
+    padding: 5px 0;
+}
+/* contact and location end */
+
+
+/* footer */
+.footer{
+    background-color: #94D1BE;
+    height: 220px;
+    width: 100%;
+    
+}
+
+.footer li{
+    
+    list-style: none;
+    margin-top: 20%;
+}
+
+.footer {
+    text-decoration: none;
+    color: #3B413C;
+}
+
+.navbar-footer{
+    float: right;
+    margin: 10px 5%; 
+}
+
+.foto-footer{
+    float: left;
+    height: 150px;
+    width: auto;
+    padding-top: 2%;
+    display: flex;
+}
+
+.foto {
+    background-color: red;
+    width: 720px    ;
+    height:450px ;
+}
+/* footer end */

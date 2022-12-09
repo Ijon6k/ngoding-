@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    padding:0;
+    margin: 0;
+    
+}
+/* color palette #3B413C #94D1BE */
+a{
+    text-decoration: none;
+}
+
+
+
+/* header */
+.active{
+    color: white;
+    border-bottom: 2pt solid red;
+    font-weight: bolder;
+    opacity: 1;
+    margin: 0 20px;
+}
+
+.home {
+    float: right;
+    color: white;
+    opacity: 0.7; 
+    padding: 35px 0 0 0;
+    margin-right: 40px;
+}
+
+.header{
+    width: auto;
+    height: 700px;
+    background-image:linear-gradient(to bottom,rgba(36, 39, 36, 0.5)70%, rgb(33, 36, 33)100%),url('/image/pandawa.jpg');
+    background-size: cover;
+}
+
+.navbar-container{
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.navbar-container a{
+    color: white;
+    opacity: 0.7;
+    margin:0px 20px;
+    
+}
+.navbar a:hover{
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+    border-bottom: 2pt solid white ;
+}
+.heading h1{
+    font-size: 52px;
+    font-weight: 200;
+    margin-top:150px;
+    padding: 0;
+    margin-bottom: 0;   
+}
+
+.heading{
+    
+    height:80px ;
+    width: 600px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin: auto;
+
+}
+
+/* header end */
+
+.sosmed{
+    height: auto;
+    float: right;
+    width: 10px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.logosos{
+    margin-top: 10px;
+    float: right;
+    width: 40px;
+    height: auto;
+}
+
+/* main */
+.number{
+    background-color: #3B413C;
+}
+
+
+.main{
+    padding-top: 50px;
+    height: auto;
+    width: 100%;
+    background-color: rgb(236, 255, 247);
+}
+
+/* jurusan mm */
+.jurusan{
+    padding: 20px 0;
+    color: white;
+}
+.gambar-jurusan-mm{
+    padding:0 30px;
+    width: 800px;
+    
+}
+
+
+.mm{
+    width: 1000px;
+    position:relative;
+    padding-right:50px ;
+}
+
+
+
+.mm h1{
+    padding: 0;
+    margin: 15px 0 0 0;
+    position: absolute;
+    width: fit-content;
+    padding: 15px 30px;
+    background-color: #3B413C;
+    font-size: 50pt;
+}
+
+.desc-mm{
+    width: 300px;
+    background-color:#3B413C ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.desc-mm h2{
+    width: 70%;
+    border-bottom: 3pt solid #94D1BE;
+}
+/* jurusan mm end */
+
+/* jurusan akl */
+.gambar-jurusan-akl{
+    margin-right:30px ;
+    margin-left: auto;
+    display: -webkit-box;
+    width: 800px;
+}
+
+
+.akl{
+    margin-left: auto;
+    display: -webkit-box;
+    position: relative;
+    width: 1000px;
+    padding-left: 50px;
+}
+
+
+
+.akl h1{
+    right: 0;
+    padding: 0;
+    margin: 15px 0 0 0;
+    position: absolute;
+    width: fit-content;
+    padding: 15px 30px;
+    background-color: #3B413C;
+    font-size: 50pt;
+}
+
+.desc-akl{
+    width: 300px;
+    background-color:#3B413C ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    float: right;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.desc-akl h2{
+    width: 70%;
+    border-bottom: 3pt solid #94D1BE;
+}
+/* jurusan akl end */
+
+/* jurusan otkp */
+.gambar-jurusan-otkp{
+    padding:0 30px;
+    width: 800px;
+    height: auto;
+    
+}
+
+
+.otkp{
+    width: 1000px;
+    position:relative;
+    padding-right:50px ;
+}
+
+
+
+.otkp h1{
+    padding: 0;
+    margin: 15px 0 0 0;
+    position: absolute;
+    width: fit-content;
+    padding: 15px 30px;
+    background-color: #3B413C;
+    font-size: 50pt;
+}
+
+.desc-otkp{
+    width: 300px;
+    background-color:#3B413C ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.desc-otkp h2{
+    width: fit-content;
+    border-bottom: 3pt solid #94D1BE;
+}
+/* jurusan otkp end */
+
+
+/* jurusan akl */
+.gambar-jurusan-bdp{
+    margin-right:30px ;
+    margin-left: auto;
+    display: -webkit-box;
+    width: 800px;
+}
+
+
+.bdp{
+    margin-left: auto;
+    display: -webkit-box;
+    position: relative;
+    width: 1000px;
+    padding-left: 50px;
+}
+
+
+
+.bdp h1{
+    right: 0;
+    padding: 0;
+    margin: 15px 0 0 0;
+    position: absolute;
+    width: fit-content;
+    padding: 15px 30px;
+    background-color: #3B413C;
+    font-size: 50pt;
+}
+
+.desc-bdp{
+    width: 300px;
+    background-color:#3B413C;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    float: right;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.desc-bdp h2{
+    width: 70%;
+    border-bottom: 3pt solid #94D1BE;
+}
+/* jurusan bdp end */
+
+/* main end */
+
+/* footer */
+.footer{
+    background-color: #94D1BE;
+    height: 220px;
+    width: 100%;
+    
+}
+
+.footer li{
+    
+    list-style: none;
+    margin-top: 20%;
+}
+
+.footer {
+    text-decoration: none;
+    color: #3B413C;
+}
+
+.navbar-footer{
+    float: right;
+    margin: 10px 5%; 
+}
+
+.foto-footer{
+    float: left;
+    height: 150px;
+    width: auto;
+    padding-top: 2%;
+    display: flex;
+}
+
+.foto {
+    background-color: red;
+    width: 720px    ;
+    height:450px ;
+}
+/* footer end */
